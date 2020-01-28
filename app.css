@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Uncial+Antiqua&display=swap');
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Uncial Antiqua', cursive;
+}
+
+span,
+p,
+a,
+button
+{
+        font-family: 'Kaushan Script', cursive;
+}
+
+.l_btn {
+  background:#fd1c56;
+  color: #fff;
+  padding: 14px 50px;
+border: none;
+border-radius: 2rem;
+text-decoration: none !important;
+transition: all 0.8s ease-in-out;
+display: block;
+margin: 1rem auto;
+cursor: pointer;
+}
+.l_btn:focus {
+  outline: none !;
+}
+.wrapper {
+ background:
+   linear-gradient(to bottom,
+   						rgba(253, 28, 86,.6),80%,
+      rgba(255, 255, 255,.6)
+   ),url(./img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.wrapper .inner {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.wrapper .inner img {
+  width: 200px;
+  object-fit: cover;
+  display: block;
+  margin:0 auto;
+}
+.wrapper .inner .content {
+  padding: 15px;
+  color: #fff;
+}
+.wrapper .inner .content .heading {
+  padding: 20px;
+}
+.wrapper .inner .content .heading h3 {
+  font-size: 24px;
+}
+.wrapper .inner .content h1 {
+  font-size: 24px;
+}
+@media screen and (max-width:754px) {
+  .wrapper .inner {
+    width: 100%;
+  }
+}
