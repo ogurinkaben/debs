@@ -42,8 +42,8 @@ cursor: pointer;
 .wrapper {
  background:
    linear-gradient(to bottom,
-   						rgba(253, 28, 86,.6),80%,
-      rgba(255, 255, 255,.6)
+   						rgba(253, 28, 86,.8),90%,
+      rgba(255, 255, 255,.8)
    ),url(./img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
