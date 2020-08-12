@@ -27,7 +27,7 @@
   "dependencies": {
     "@webpack-cli/init": "^0.3.0",
     "file-loader": "^5.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-ui": "^1.12.1",
     "jquery-ui-bundle": "^1.12.1-migrate",
     "webpack-cli": "^3.3.10"
